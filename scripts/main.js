@@ -105,7 +105,15 @@ async function getInputValue(){
     createText("<i class='fas fa-circle'></i> Designing: Adobe Designing Suite, Figma, GIMP, Krita.")
     createText("<i class='fas fa-circle'></i> Documentation: Microsoft Office Suite, Libre Office Suite, Google Suite.")
     createText("<i class='fas fa-circle'></i> Language: Bangla (Native), English (Competent), Hindi (Conversational).")
-  
+  }
+    
+  else if(value === "works"){
+    trueValue(value);
+    createText("<a href='https://www.cse23.xyz/' ><i class='fas fa-circle'></i> CSE'23</a>")
+//     createText("<i class='fas fa-circle'></i> Web services: HTML5, CSS, JS, WP.")
+//     createText("<i class='fas fa-circle'></i> Designing: Adobe Designing Suite, Figma, GIMP, Krita.")
+//     createText("<i class='fas fa-circle'></i> Documentation: Microsoft Office Suite, Libre Office Suite, Google Suite.")
+//     createText("<i class='fas fa-circle'></i> Language: Bangla (Native), English (Competent), Hindi (Conversational).")
   }
   
   else if(value === "clear"){
