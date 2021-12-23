@@ -23,7 +23,7 @@ app.addEventListener("click", function(event){
 async function open_terminal(){
   createText("Hey! Prottay here.");
   await delay(500);
-  createText("In this termial you can type the commands below to view about me.");
+  createText("In this termial you can type the commands below to know me.");
   createText("Commands:");
   createCode("about","To know more about me");
   createCode("contact", "Contact me.");
