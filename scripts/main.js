@@ -77,10 +77,6 @@ async function getInputValue(){
     createCode("clear", "Clean the terminal.");
     
   }
-  else if(value === "projects"){
-    trueValue(value);
-    createText("<a href='https://github.com/human71' target='_blank'><i class='fab fa-github white'></i> github.com/heberleonard2</a>")
-  }
   else if(value === "about"){
     trueValue(value);
     createText("This is Prottay Kumar Adhikary. I am exploring the fields of research on Computer science specifically the domain of NLP, I am now delving into the Machine translation, Summarization, Information retrival, Speech recognition and so on.")
