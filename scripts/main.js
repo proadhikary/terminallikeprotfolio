@@ -29,7 +29,6 @@ async function open_terminal(){
   createCode("contact", "Contact me.");
   createCode("clear", "Clean the terminal.");
   createCode("help","See all commands.");
-
   await delay(500);
   new_line();
 }
@@ -69,11 +68,11 @@ async function getInputValue(){
   if(value === "help"){
     trueValue(value);
     
-    createCode("works", "List of my projects.");
     createCode("about", "About me.");
-    createCode("contact", "Contact me.");
+    createCode("works", "List of my projects.");
     createCode("edu", "Institues taught me.");
     createCode("skill", "What am I good at.");
+    createCode("contact", "Contact me.");
     createCode("clear", "Clean the terminal.");
     
   }
